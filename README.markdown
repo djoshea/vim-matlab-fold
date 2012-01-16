@@ -14,8 +14,8 @@ Installation
 ------------
 
 First, I highly recommend installing the Matlab syntax and indent files authored
-by (Fabrice Guy)[http://www.vim.org/account/profile.php?user_id=15324] available 
-at [http://www.vim.org/scripts/script.php?script_id=2407].
+by [Fabrice Guy](http://www.vim.org/account/profile.php?user_id=15324) available 
+[here](http://www.vim.org/scripts/script.php?script_id=2407).
 These files will facilitate proper indentation of Matlab files which this script
 relies upon to do code folding.
 
@@ -39,6 +39,6 @@ Or, you can clone the git repository into a pathogen bundle:
 License
 -------
 
-Copyright (c) (Dan O'Shea)[http://djoshea.com].  Distributed under the same terms as Vim itself.
+Copyright (c) [Dan O'Shea](http://djoshea.com).  Distributed under the same terms as Vim itself.
 See `:help license`.
 
