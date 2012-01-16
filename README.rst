@@ -15,30 +15,30 @@ Installation
 ===============
 
 First, I highly recommend installing the Matlab syntax and indent files authored
-by _`Fabrice Guy` available _`here`.
+by `Fabrice Guy`_ available `here`_.
 These files will facilitate proper indentation of Matlab files which this script
 relies upon to do code folding.
 
 .. _`Fabrice Guy`: http://www.vim.org/account/profile.php?user_id=15324
 .. _`here`: http://www.vim.org/scripts/script.php?script_id=2407
 
-Install to ``~/.vim/ftplugin/matlab_fold.vim``. Or, copy and paste:
+Install to ``~/.vim/ftplugin/matlab_fold.vim``. Or, copy and paste::
 
     mkdir -p ~/.vim/ftplugin \ 
     curl -so ~/.vim/ftplugin/matlab_fold.vim \
         https://raw.github.com/djoshea/vim-matlab-fold/HEAD/ftplugin/matlab_fold.vim
 
-If you're using _`Pathogen`, install to ``~/.vim/bundle/vim-matlab-fold/ftplugin/matlab_fold.vim``.
+If you're using `Pathogen`_, install to ``~/.vim/bundle/vim-matlab-fold/ftplugin/matlab_fold.vim``.
 
 .. _`Pathogen`: http://github.com/tpope/vim-pathogen
 
-Or, copy and paste:
+Or, copy and paste::
 
     mkdir -p ~/.vim/bundle/vim-matlab-fold/ftplugin \ 
     curl -so ~/.vim/bundle/vim-matlab-fold/ftplugin/matlab_fold.vim \
         https://raw.github.com/djoshea/vim-matlab-fold/HEAD/ftplugin/matlab_fold.vim
 
-Or, you can clone the git repository into a pathogen bundle:
+Or, you can clone the git repository into a pathogen bundle::
 
     git clone git://github.com/djoshea/vim-matlab-fold.git ~/.vim/bundle/vim-matlab-fold
 
@@ -54,7 +54,7 @@ Editing a class definition file:
 License
 ===============
 
-Copyright (c) _`Dan O'Shea`.  Distributed under the same terms as Vim itself.
+Copyright (c) `Dan O'Shea`_.  Distributed under the same terms as Vim itself.
 See ``:help license``.
 
 .. _`Dan O'Shea`: http://djoshea.com
