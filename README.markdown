@@ -36,6 +36,11 @@ Or, you can clone the git repository into a pathogen bundle:
 
     git clone git://github.com/djoshea/vim-matlab-fold.git ~/.vim/bundle/vim-matlab-fold
 
+Screenshots
+-------
+
+![vim-matlab-fold Screenshot](http://cloud.github.com/downloads/djoshea/vim-matlab-fold/vim-matlab-fold.png "vim-matlab-fold Screenshot")
+
 License
 -------
 
