@@ -25,7 +25,7 @@ Install to `~/.vim/ftplugin/matlab_fold.vim`. Or, copy and paste:
     curl -so ~/.vim/ftplugin/matlab_fold.vim \
         https://raw.github.com/djoshea/vim-matlab-fold/HEAD/ftplugin/matlab_fold.vim
 
-If you're using pathogen, install to `~/.vim/bundle/vim-matlab-fold/ftplugin/matlab_fold.vim`.
+If you're using [Pathogen](http://github.com/tpope/vim-pathogen), install to `~/.vim/bundle/vim-matlab-fold/ftplugin/matlab_fold.vim`.
 Or, copy and paste:
 
     mkdir -p ~/.vim/bundle/vim-matlab-fold/ftplugin \ 
