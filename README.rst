@@ -47,9 +47,10 @@ Screenshots
 
 Editing a class definition file:
 
-.. image:: http://cloud.github.com/downloads/djoshea/vim-matlab-fold/vim-matlab-fold.png
+.. image:: http://farm8.staticflickr.com/7148/6707049343_6de1df08fc_z.jpg
    :alt: vim-matlab-fold Screenshot
    :align: center
+   :target: http://www.flickr.com/photos/dan_oshea/6707049343/in/set-72157628892922457/
 
 License
 ===============
