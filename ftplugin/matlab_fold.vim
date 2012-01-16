@@ -22,7 +22,9 @@
 "     http://www.vim.org/scripts/script.php?script_id=2407
 "
 " Install:
-"   - Place this file in ~/.vim/ftplugin/
+"   - Place this file in ~/.vim/ftplugin/ or
+"       ~/.vim/bundle/vim-matlab-fold/ftplugin/ if you're using Pathogen
+"
 "   - Make sure you have the following lines in your .vimrc
 "		filetype plugin on 
 "		filetype indent on
