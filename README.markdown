@@ -39,6 +39,8 @@ Or, you can clone the git repository into a pathogen bundle:
 Screenshots
 -------
 
+Editing a class definition file:
+
 ![vim-matlab-fold Screenshot](http://cloud.github.com/downloads/djoshea/vim-matlab-fold/vim-matlab-fold.png "vim-matlab-fold Screenshot")
 
 License
