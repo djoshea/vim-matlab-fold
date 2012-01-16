@@ -86,9 +86,6 @@ function! GetLineIndent(lnum, ...)
             return GetLineIndent(prevnonblank(a:lnum-1), -1)
         end
 
-"   elseif IsLineEndKeyword(a:lnum)
-        " for end keyword lines, here we treat them as having the indent of the
-        " inner block which they enclose, such that blank lines 
     else
         " Nothing special, just return the actual indent + 1, which allows for 
         " cell-mode folding of unindented lines
