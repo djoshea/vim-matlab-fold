@@ -89,7 +89,7 @@ function! GetLineIndent(lnum, ...)
     else
         " Nothing special, just return the actual indent + 1, which allows for 
         " cell-mode folding of unindented lines
-        return indent(a:lnum) / &ts + 1 
+        return indent(a:lnum) + 1 
 
         " if you're trying to debug, i'd recommend changing the above to:
         " return indent(a:lnum) / &ts + 1
