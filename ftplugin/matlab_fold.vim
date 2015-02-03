@@ -75,24 +75,24 @@ function! GetLineIndent(lnum, ...)
         if directionForward == 0
             " For blank lines, return the indent of the most indented surrounding line
             " Use the second argument to force the recursion to proceed in a
-            " specific direction outward from this line 
-            return max([GetLineIndent(nextnonblank(a:lnum+1),1), GetLineIndent(prevnonblank(a:lnum-1),-1)]) 
+            " specific direction outward from this line
+            return max([GetLineIndent(nextnonblank(a:lnum+1),1), GetLineIndent(prevnonblank(a:lnum-1),-1)])
 
         elseif directionForward == 1
             " Just check the subsequent line
             return GetLineIndent(nextnonblank(a:lnum+1), 1)
-        else " directionForward == -1 
+        else " directionForward == -1
             " Just check the previous line
             return GetLineIndent(prevnonblank(a:lnum-1), -1)
         end
 
     else
-        " Nothing special, just return the actual indent + 1, which allows for 
+        " Nothing special, just return the actual indent + 1, which allows for
         " cell-mode folding of unindented lines
-        return indent(a:lnum) + 1 
+        " return indent(a:lnum) + 1
 
         " if you're trying to debug, i'd recommend changing the above to:
-        " return indent(a:lnum) / &ts + 1
+        return indent(a:lnum) / &ts + 1
         " to make the indent levels equal to the number of tabs rather than
         " spaces, and then use set foldcolumn=10 to see the folds visually
     endif
